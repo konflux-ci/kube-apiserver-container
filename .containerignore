@@ -1,0 +1,11 @@
+# The superproject .git dir is ~1.4G and is never needed inside the build.
+.git
+.gitmodules
+.claude
+
+# Submodule git metadata (a file pointing back into ../.git/modules) and docs.
+kubernetes/.git
+kubernetes/.github
+kubernetes/CHANGELOG
+kubernetes/docs
+kubernetes/logo
